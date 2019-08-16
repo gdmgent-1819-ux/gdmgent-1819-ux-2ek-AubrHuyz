@@ -29,8 +29,8 @@ body {
     text-decoration: none;
     padding: 5px 20px;
 }
-#headerbutton a:hover {
-    background-color: #0A91DC;
+#headerbutton:hover {
+    text-decoration-line: underline;
 }
 /*grid*/ 
 .grid {
@@ -51,9 +51,10 @@ body {
     left: 0;
     margin-top: -30px;
 }
-    /*overflow-x: hidden;*/
+    
  #search {
     background-color: #0A91DC;
+    color: #fff;
 }
 i {
     color: #fff;
@@ -63,7 +64,8 @@ i {
 
 #logo{
     margin: 0px 0px 0px -7%;
-    width: 100%
+    width: 100%;
+    margin-bottom: -70px;
  }
 .navigatie a {
     padding: 5px 5px 5px 40px;
@@ -274,5 +276,9 @@ p{
 .voet{
     width: 100%;
     background-color: #96C31E;
+    text-align: right; 
+    padding: 1px 25px 2px 0px;
+    
+    ;
 
 }
