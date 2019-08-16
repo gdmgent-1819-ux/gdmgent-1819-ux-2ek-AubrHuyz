@@ -6,6 +6,60 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
     max-width: 1920px;
 }
+.kleuren{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10%;
+}
+#groen{
+    background-color: #96C31E;
+    grid-column: 1/2;
+    text-align: center;
+    padding: 10%;
+}
+#blauw{
+    background-color: #0A91DC;
+    grid-column: 2/3;
+    text-align: center;
+    padding: 10%;
+}
+#wit1{
+    background-color: #fff;
+    border: 2px solid #000;
+    text-align: center;
+    padding: 10%;
+    color: #000;
+}
+#lichtzwart{
+    background-color: #282828;
+    text-align: center;
+    padding: 10%;
+    color: #fff;
+}
+.typogafie{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10%;
+
+}
+#dag{
+    font-weight: 200;
+    font-size: 30px;
+    justify-self: end;
+    align-self: center;
+    color: #96C31E;
+}
+#menu1 {
+    font-size: 12px;
+    color: #282828;
+    font-weight: 400;
+    margin: 0%;}
+.knoppen{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10%; 
+
+}
 /* header */
 .header {
     background-color: #96C31E;
@@ -50,6 +104,7 @@ body {
     top: 0;
     left: 0;
     margin-top: -30px;
+    overflow: scroll;
 }
     
  #search {
@@ -127,11 +182,7 @@ img {
 .agenda{
     grid-column: 2/3;
     grid-row: 2/3
-    
-    
-
 }
-
 #blauwreg{
     color: #0A91DC;
     font-weight: 500;
@@ -250,6 +301,7 @@ img {
 }
 #wit {
     color: #fff;
+    background-color: #96C31E;
 
 }
 h6  {
