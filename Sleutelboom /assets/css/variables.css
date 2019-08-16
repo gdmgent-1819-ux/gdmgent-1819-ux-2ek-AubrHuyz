@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,500,700&display=swap');
+ :root{
+ /* colors */
+ --c-groen: hsla(76, 73%, 44%, 1); 
+ --c-blauw:hsla(201, 91%, 45%, 1);
+ --c-zwart-licht: hsla(0, 0%, 15%, 1);
+ --c-zwart: hsla(0, 0%, 0%, 1);
+ --c-wit: hsla(0, 0%, 100%, 1);
+ --c-grijs: hsla(0, 0%, 43%, 1);
+ 
+ /* fonds */
+--f-medium: 'Noto Sans JP 500';
+
+}
